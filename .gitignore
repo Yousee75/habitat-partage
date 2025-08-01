@@ -1,0 +1,56 @@
+# Système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dépendances
+node_modules/
+bower_components/
+
+# Build
+dist/
+build/
+*.min.js
+*.min.css
+
+# Temporaires
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# Backups
+*.bak
+*.backup
+*.old
+
+# Local
+.env
+.env.local
+.env.*.local
+config.local.js
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Tests
+coverage/
+.nyc_output/
+
+# Documentation générée
+docs/_build/
