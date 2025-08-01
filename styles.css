@@ -376,6 +376,24 @@ section.visible {
     transform: translateY(0);
 }
 
+/* Force visibility on mobile to prevent display issues */
+@media (max-width: 768px) {
+    section {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: opacity 0.3s ease;
+    }
+    
+    /* Alternative animation for mobile */
+    section:not(.visible) {
+        opacity: 0.8;
+    }
+    
+    section.visible {
+        opacity: 1;
+    }
+}
+
 .section-header {
     max-width: 900px;
     margin: 0 auto 3rem;
